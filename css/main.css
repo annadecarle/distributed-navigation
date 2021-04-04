@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  grid-area: banner;
+  align-self: end;
+  padding: 1.5rem 1rem;
+}
+
+nav {
+  grid-area: banner;
+  background-color: #e2e2e2;
+  padding: 1rem;
+}
+
+nav > ul {
+  padding: .75em 1em .6em;
+  margin: .5rem;
+  display: flex;
+  justify-content: right;
+}
+
+nav > ul li {
+  margin: 0 .5em;
+  list-style-type: none;
+}
+
+img {
+  width: 2rem;
+}
